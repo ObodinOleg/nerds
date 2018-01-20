@@ -1,16 +1,143 @@
-<!-- Привет, если ты не забьешь болт на мои попытки тебя обучить своим знаниям и умениям, то ты увидишь это сообщение. Я сижу в том самом углу, да да (дро**льном), пока ты спишь и готовлю для тебя организацию процесса обучения, что бы все было максимально приближено к тому, как это делают в HTML Academy. Это будет очередная вещь, которую я хочу делать с тобой вместе, интересно чем закончится это увлечения, так как остальные потихоньку умерли...да, возможно после этой строчки ты разозлишься, но к сожалению only true.
-Итак, если ты все же здесь, в первую очередь хочу сказать спасибо. Спасибо, что не игнорируешь мои попытки усердия и старания передать тебе мои знания. Но иногда я не понимаю почему ты постоянно отнекиваешься от всего что я тебе предлагаю. Если бы у меня был такой человек который был бы готов учить меня в начале пути, да блин я бы п*здец был бы счастлив. Мне очень жаль что все мои идеи будь то порно, порох и прочие разбиваются об острые скалы твоих предубеждений и непонятного мне неистового уперства.
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Барбершоп Бородинский</title>
+</head>
+<body>
+<header class="main-header">
+<nav class="main-navigation">
+    <img src="img/yenn.jpg" width="100" height="100" alt="Логотип барбершопа «Бородинский»">
+       <ul class="site-navigation">
+         <li><a href="info.html">Информация</a></li>
+         <li><a href="news.html">Новости</a></li>
+         <li><a href="price.html">Прайс-лист</a></li>
+         <li><a href="catalog.html">Магазин</a></li>
+         <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    <ul class="user-navigation">
+<li class="login-link">Вход</li>
+</ul>
+</nav>
+</header>
+<main class="container">
+    <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+    <section class="features">
+        <h2 class="vissualy-hidden">Преимущества</h2>
+        <ul class="features-list">
+            <li class="feature-item">
+                <h3>Быстро</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, blanditiis mollitia, exercitationem eius delectus sed inventore laborum rem pariatur aspernatur iste illum libero nihil quas, quaerat officia accusamus dolore laboriosam.</p>
+            </li>
+            <li class="feature-item">
+                <h3>Круто</h3>
+                <p>Lorem</p>
+            </li>
+            <li class="feature-item">
+                <h3>Дорого</h3>
+                <p>Lorem</p>
+            </li>
+        </ul>
+        </section>
 
-Итак, дорогая моя послушница, с этого момента я буду твоим наставником. Сейчас ты подпишешь контракт (с дьяволом и если его нарушиш, многое потеряешь), также это будет твоим первым заданием: 
+    <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+            <li class="news-item">
+            <p>blablabla</p>
+            <time datetime="2016-01-11">11 января</time>                
+            </li>
+            <li class="news-item">
+            <p>blablabla</p>
+            <time datetime="2016-01-18">18 января</time>                
+            </li>                
+        </ul>
+        <a class="button" href="news.html">Все новости</a>              
+    </section>
+    <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <figure class="gallery-content">
+            <a href="#"><img src="img/yen.jpg" width="367" height="233" alt="Интерьер"></a>
+        </figure>
+        <span class="button gallery-button gallery-button-back">Назад</span>
+        <span class="button gallery-button gallery-button-next">Вперед</span>
+    </section>
+    <section class="contacs">
+        <h2>Контактная информация</h2>
+        <p>
+            Барбершоп «Бородинский»<br>
+            Адрес: г.СПб, ул. Б. Конюшенная, д.19/8<br>
+            Телефон: +7(812)666-02-66
+        </p>
+        <p>
+            Время работы:<br>
+            пн-пт: с 10:00 до 22:00<br>
+            сб-вс: с 10:00 до 19:00<br>
+        </p>
+        <a class="button contacts-button" href="map.html">Как проехать</a>
+        <a class="button contacts-button" href="contacts.html">Обратная связь</a>
+    </section>
+    <section class="appointment">
+        <h2>Записаться</h2>
+        <p class="appointment-info">blablabla</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="appointment-item">Дата
+            <input type="text" name="date" value="" placeholder="08.10.2017">
+            </p>
+            <p class="appointment-item">Время
+            <input type="text" name="time" value="" placeholder="10:00">
+            </p>
+            <p class="appointment-item">Ваше имя
+            <input type="text" name="name" value="" placeholder="Борода">
+            </p>
+            <p class="appointment-item">Телефон
+            <input type="tel" name="phone" value="" placeholder="+7 123 456 78 90">
+            </p>
+            <button class="button" type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
+<footer class="main-footer">
+    <p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. СПб, ул. Б. Конюшенная, д.19/8 <br>
+        <a href="map.html">Как нас найти</a><br>
+        Телефон +7 (812) 666-02-66
+    </p>
+    <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+        <li><a href="social-button" class="#">Вконтакте</a></li>
+        <li><a href="social-button" class="#">Фейсбук</a></li>
+        <li><a href="social-button" class="#">Инстаграм</a></li>
+        </ul>
+    </div>
+    <p class="footer-copyright">
+        <b>Разработано</b>
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+    </p>
+</footer>
 
-#Необходимо заполнить поля ниже и синхронизировать с форкнутым репозиторием на гитхабе и выполнить пуллреквест в мастер. Желаю Удачи!
-
-=======================
-Имя послушницы :Луна 
-=======================
-Имя наставника :Солнце
-=======================
-Дата соглашения :06.01.2018
-=======================
-
--->
+<section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p>Введите логин и пароль</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p><input type="text" class="login-icon-urer" name="login" placeholder="Логин"></p>
+        <p><input type="password" class="login-icon-password" name="password" placeholder="Пароль"></p>
+        <p class="login-password-info">
+            <input type="checkbox" name="remember" class="vissually-hidden">Запомните меня
+            <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+    </form>
+    <span class="modal-close">x</span>
+</section>
+<section class="modal modal-map">
+<h2 class="vissually-hidden">Как до нас добраться</h2>
+<span class="modal-close">x</span>
+</section>
+    
+</body>
+</html>
